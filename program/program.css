@@ -2,6 +2,7 @@ body {
     overflow: hidden;
     border:0;
     margin: 0;
+   
 }
 .back-button{
     position: absolute;
@@ -27,6 +28,7 @@ body {
 }
 #pdf{
     z-index: 0;
+    display:flex;
 }
 .seating-chart-button{
     position: absolute;

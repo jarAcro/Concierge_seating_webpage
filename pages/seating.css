@@ -51,10 +51,8 @@ main{
 }
 
 #section-106{
-  
   bottom: 195px;
   left: 780px;
- 
 }
 
 #section-106:hover{
@@ -67,7 +65,7 @@ main{
   left: 1070px;
 }
 
-#section-105, #section-106 {
+#section-105, #section-106, #section-104-1, #section-104-2{
   z-index: 1;
   border-radius: 50%;
   height: 20px;
@@ -79,4 +77,14 @@ main{
 .popup-container{
   height: 100%;
   width: 80%;
+}
+#section-104-1{
+  bottom: 285px;
+  left: 820px;
+  position: absolute;
+}
+#section-104-2{
+  bottom: 410px;
+  left: 810px;
+  position: absolute;
 }

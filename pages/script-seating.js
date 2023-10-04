@@ -5,6 +5,8 @@ function showSectionImage(sectionId) {
     const sectionImageMap = {
       "section-106": "/images/seating-images/section106.png",
         "section-105": "/images/seating-images/section105.png",
+        "section-104-1": "/images/seating-images/section104-1.png",
+        "section-104-2": "/images/seating-images/section104-2.png",
     };
   
     const sectionImage = sectionImageMap[sectionId];
