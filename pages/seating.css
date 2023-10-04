@@ -1,0 +1,82 @@
+.seating-map{
+    width: 80%;
+    height: 40%;
+   position: relative;
+   display:flex;
+   align-content: center;
+   padding-top: 0;
+   margin:0;
+ flex-grow: 2;
+   transform: translateX(90px);
+}
+
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+
+body{
+    background: linear-gradient(to left,#D4ACFB, #F8AC86);
+    overflow: hidden;
+}
+main{
+   transform: translateY(-80px);
+}
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 50px;
+  background-color: #7205f0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.back-button:hover {
+  background-color: #d5d7dd;
+}
+
+#section-106{
+  
+  bottom: 195px;
+  left: 780px;
+ 
+}
+
+#section-106:hover{
+ cursor: pointer;
+ transform: scale(1.2);
+}
+
+#section-105{
+  bottom: 190px;
+  left: 1070px;
+}
+
+#section-105, #section-106 {
+  z-index: 1;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  opacity: .9;
+  position: absolute;
+  background-color:red;
+}
+.popup-container{
+  height: 100%;
+  width: 80%;
+}
