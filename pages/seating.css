@@ -223,8 +223,73 @@ button{
   position: absolute;
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
+#section-202-1{
+  bottom: 553px;
+  left: 743px;
+  position: absolute;
+}
+#section-202-2{
+  bottom: 590px;
+  left: 800px;
+  position: absolute;
+}
+#section-202-3{
+  bottom: 620px;
+  left: 660px;
+  position: absolute;
+}
+#section-202-4{
+  bottom: 696px;
+  left: 766px;
+  position: absolute;
+  
+}
 /*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-201-1{
+  bottom: 595px;
+  left: 1045px;
+  position: absolute;
+}
+#section-201-2{
+  bottom: 550px;
+  left: 1110px;
+  position: absolute;
+}
+#section-201-3{
+  bottom: 691px;
+  left: 1100px;
+  position: absolute;
+}
+#section-201-4{
+  bottom: 620px;
+  left: 1193px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#section-200-1{
+  
+  bottom: 616px;
+  left: 860px;
+  position: absolute;
+}
+#section-200-2{
+  bottom: 613px;
+  left: 1000px;
+  position: absolute;
+}
+#section-200-3{
+  bottom: 720px;
+  left: 1020px;
+  position: absolute;
+}
+#section-200-4{
+  bottom: 717px;
+  left: 830px;
+  position: absolute;
+}
+#section-200-5{
+  bottom: 670px;
+  left: 930px;
+  position: absolute;
+}
