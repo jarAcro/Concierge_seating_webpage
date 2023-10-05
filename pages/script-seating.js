@@ -68,7 +68,7 @@ function showSectionImage(sectionId) {
   
     const sectionImage = sectionImageMap[sectionId];
     if (sectionImage) {
-      const popupWindow = window.open("", "Section Image", "width=2000,height=1000, channelmode=yes");
+      const popupWindow = window.open("", "Section Image", "width=2000,height=1000, channelmode=yes fullscreen=yes scrollbars=no");
       popupWindow.document.write(`<img src="${sectionImage}" alt="Section Image">`);
     }
   }

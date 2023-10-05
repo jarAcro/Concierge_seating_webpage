@@ -4,9 +4,7 @@
    position: relative;
    display:flex;
    align-content: center;
-   padding-top: 0;
    margin:0;
- flex-grow: 2;
    transform: translateX(90px);
 }
 
@@ -32,9 +30,10 @@ main{
   left: 50px;
   background-color: #7205f0;
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .back-button a {
@@ -78,6 +77,79 @@ button{
   height: 100%;
   width: 80%;
 }
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#section-101-1{
+  bottom: 460px;
+  left: 1020px;
+  position: absolute;
+}
+#section-101-2{
+  bottom: 487px;
+  left: 956px;
+  position: absolute;
+}
+#section-101-3{
+  bottom: 560px;
+  left: 960px;
+  position: absolute;
+}
+#section-101-4{
+ 
+  bottom: 500px;
+  left: 1080px;
+  position: absolute;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#section-102-1{
+  bottom: 485px;
+  left: 900px;
+  position: absolute;
+}
+#section-102-2{
+  bottom: 458px;
+  left: 840px;
+  position: absolute;
+}
+#section-102-3{
+  bottom: 560px;
+  left: 900px;
+  position: absolute;
+}
+#section-102-4{
+  bottom: 500px;
+  left: 780px;
+  position: absolute;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-103-1{
+  bottom: 405px;
+  left: 1040px;
+  position: absolute;
+}
+#section-103-2{
+  bottom: 281px;
+  left: 1036px;
+  position: absolute;
+}
+#section-103-3{
+  bottom: 350px;
+  left: 1095px;
+  position: absolute;
+}
+#section-103-4{
+  bottom: 450px;
+  left: 1120px;
+  position: absolute;
+}
+#section-103-5{
+  bottom: 260px;
+  left: 1120px;
+  position: absolute;
+}
 /*------------------------------------------------------------------------------------------------------------------------------*/
 #section-104-1{
   bottom: 285px;
@@ -106,77 +178,7 @@ button{
   left: 740px;
   position: absolute;
 }
-/*------------------------------------------------------------------------------------------------------------------------------*/
-#section-103-1{
-  bottom: 405px;
-  left: 1040px;
-  position: absolute;
-}
-#section-103-2{
-  bottom: 281px;
-  left: 1036px;
-  position: absolute;
-}
-#section-103-3{
-  bottom: 350px;
-  left: 1095px;
-  position: absolute;
-}
-#section-103-4{
-  bottom: 450px;
-  left: 1120px;
-  position: absolute;
-}
-#section-103-5{
-  bottom: 260px;
-  left: 1120px;
-  position: absolute;
-}
-/*------------------------------------------------------------------------------------------------------------------------------*/
 
-#section-101-1{
-  bottom: 460px;
-  left: 1020px;
-  position: absolute;
-}
-#section-101-2{
-  bottom: 487px;
-  left: 956px;
-  position: absolute;
-}
-#section-101-3{
-  bottom: 560px;
-  left: 960px;
-  position: absolute;
-}
-#section-101-4{
- 
-  bottom: 500px;
-  left: 1080px;
-  position: absolute;
-}
-/*------------------------------------------------------------------------------------------------------------------------------*/
-
-#section-102-1{
-  bottom: 485px;
-  left: 900px;
-  position: absolute;
-}
-#section-102-2{
-  bottom: 458px;
-  left: 840px;
-  position: absolute;
-}
-#section-102-3{
-  bottom: 560px;
-  left: 900px;
-  position: absolute;
-}
-#section-102-4{
-  bottom: 500px;
-  left: 780px;
-  position: absolute;
-}
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 #section-206-1{
@@ -291,5 +293,28 @@ button{
 #section-200-5{
   bottom: 670px;
   left: 930px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#section-203-1{
+  
+  bottom: 370px;
+  left: 1199px;
+  position: absolute;
+
+}
+#section-203-2{
+  bottom: 470px;
+  left: 1172px;
+  position: absolute;
+}
+#section-203-3{
+  bottom: 519px;
+  left: 1266px;
+  position: absolute;
+}
+#section-203-4{
+  bottom: 370px;
+  left: 1305px;
   position: absolute;
 }
