@@ -72,7 +72,7 @@ button{
   width: 20px;
   opacity: .9;
   position: absolute;
-  background-color:red;
+  background-color:rgb(246, 105, 105);
 }
 .popup-container{
   height: 100%;
@@ -133,3 +133,92 @@ button{
   position: absolute;
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-101-1{
+  bottom: 460px;
+  left: 1020px;
+  position: absolute;
+}
+#section-101-2{
+  bottom: 487px;
+  left: 956px;
+  position: absolute;
+}
+#section-101-3{
+  bottom: 560px;
+  left: 960px;
+  position: absolute;
+}
+#section-101-4{
+ 
+  bottom: 500px;
+  left: 1080px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-102-1{
+  bottom: 485px;
+  left: 900px;
+  position: absolute;
+}
+#section-102-2{
+  bottom: 458px;
+  left: 840px;
+  position: absolute;
+}
+#section-102-3{
+  bottom: 560px;
+  left: 900px;
+  position: absolute;
+}
+#section-102-4{
+  bottom: 500px;
+  left: 780px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-206-1{
+  bottom: 220px;
+  left: 690px;
+  position: absolute;
+}
+#section-206-2{
+  bottom: 316px;
+  left: 660px;
+  position: absolute;
+}
+#section-206-3{
+  
+  bottom: 170px;
+  left: 590px;
+  position: absolute;
+}
+#section-206-4{
+  bottom: 310px;
+  left: 550px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-204-1{
+  bottom: 560px;
+  left: 1060px;
+  position: absolute;
+}
+#section-204-2{
+  bottom: 560px;
+  left: 1140px;
+  position: absolute;
+}
+#section-204-3{
+  bottom: 560px;
+  left: 1220px;
+  position: absolute;
+}
+#section-204-4{
+  bottom: 560px;
+  left: 1300px;
+  position: absolute;
+}

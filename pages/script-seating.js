@@ -3,20 +3,41 @@ let popupTimeout;
 
 function showSectionImage(sectionId) {
     const sectionImageMap = {
-      "section-106": "/images/seating-images/section106.png",
-        "section-105": "/images/seating-images/section105.png",
+"section-101-1": "/images/seating-images/section101-1.png",
+"section-101-2": "/images/seating-images/section101-2.png",
+"section-101-3": "/images/seating-images/section101-3.png",
+"section-101-4": "/images/seating-images/section101-4.png",
 
-        "section-104-1": "/images/seating-images/section104-1.png",
-        "section-104-2": "/images/seating-images/section104-2.png",
-        "section-104-3": "/images/seating-images/section104-3.png",
-        "section-104-4": "/images/seating-images/section104-4.png",
-        "section-104-5": "/images/seating-images/section104-5.png",
+"section-102-1": "/images/seating-images/section102-1.png",
+"section-102-2": "/images/seating-images/section102-2.png",
+"section-102-3": "/images/seating-images/section102-3.png",
+"section-102-4": "/images/seating-images/section102-4.png",
 
 "section-103-1":"/images/seating-images/section103-1.png",
 "section-103-2": "/images/seating-images/section103-2.png",
 "section-103-3": "/images/seating-images/section103-3.png",
 "section-103-4": "/images/seating-images/section103-4.png",
 "section-103-5": "/images/seating-images/section103-5.png",
+
+"section-104-1": "/images/seating-images/section104-1.png",
+"section-104-2": "/images/seating-images/section104-2.png",
+"section-104-3": "/images/seating-images/section104-3.png",
+"section-104-4": "/images/seating-images/section104-4.png",
+"section-104-5": "/images/seating-images/section104-5.png",
+
+"section-105": "/images/seating-images/section105.png",
+"section-106": "/images/seating-images/section106.png",
+
+"section-206-1": "/images/seating-images/section206-1.png",
+"section-206-2": "/images/seating-images/section206-2.png",
+"section-206-3": "/images/seating-images/section206-3.png",
+"section-206-4": "/images/seating-images/section206-4.png",
+
+"section-204-1": "/images/seating-images/section204-1.png",
+"section-204-2": "/images/seating-images/section204-2.png",
+"section-204-3": "/images/seating-images/section204-3.png",
+"section-204-4": "/images/seating-images/section204-4.png",
+
     };
   
     const sectionImage = sectionImageMap[sectionId];
