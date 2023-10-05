@@ -65,7 +65,7 @@ main{
   left: 1070px;
 }
 
-#section-105, #section-106, #section-104-1, #section-104-2{
+#section-105, #section-106, #section-104-1, #section-104-2, #section-104-3, #section-104-4, #section-104-5{
   z-index: 1;
   border-radius: 50%;
   height: 20px;
@@ -86,5 +86,22 @@ main{
 #section-104-2{
   bottom: 410px;
   left: 810px;
+  position: absolute;
+}
+
+#section-104-3{
+  bottom: 350px;
+  left:760px;
+  position: absolute;
+}
+
+#section-104-4{
+  bottom: 260px;
+  left: 740px;
+  position: absolute;
+}
+#section-104-5{
+  bottom: 450px;
+  left: 740px;
   position: absolute;
 }
