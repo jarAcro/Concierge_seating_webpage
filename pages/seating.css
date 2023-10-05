@@ -297,7 +297,6 @@ button{
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
 #section-203-1{
-  
   bottom: 370px;
   left: 1199px;
   position: absolute;
@@ -316,5 +315,28 @@ button{
 #section-203-4{
   bottom: 370px;
   left: 1305px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+#section-205-1{
+  bottom: 225px;
+  left: 1167px;
+  position: absolute;
+}
+#section-205-2{
+  bottom: 310px;
+  left: 1195px;
+  position: absolute;
+}
+#section-205-3{
+  bottom: 180px;
+  left: 1264px;
+  position: absolute;
+}
+#section-205-4{
+  
+  bottom: 300px;
+  left: 1300px;
   position: absolute;
 }
