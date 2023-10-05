@@ -65,7 +65,7 @@ main{
   left: 1070px;
 }
 
-#section-105, #section-106, #section-104-1, #section-104-2, #section-104-3, #section-104-4, #section-104-5{
+button{
   z-index: 1;
   border-radius: 50%;
   height: 20px;
@@ -78,6 +78,7 @@ main{
   height: 100%;
   width: 80%;
 }
+/*------------------------------------------------------------------------------------------------------------------------------*/
 #section-104-1{
   bottom: 285px;
   left: 820px;
@@ -105,3 +106,30 @@ main{
   left: 740px;
   position: absolute;
 }
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#section-103-1{
+  bottom: 405px;
+  left: 1040px;
+  position: absolute;
+}
+#section-103-2{
+  bottom: 281px;
+  left: 1036px;
+  position: absolute;
+}
+#section-103-3{
+  bottom: 350px;
+  left: 1095px;
+  position: absolute;
+}
+#section-103-4{
+  bottom: 450px;
+  left: 1120px;
+  position: absolute;
+}
+#section-103-5{
+  bottom: 260px;
+  left: 1120px;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/

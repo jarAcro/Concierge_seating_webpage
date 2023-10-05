@@ -5,11 +5,18 @@ function showSectionImage(sectionId) {
     const sectionImageMap = {
       "section-106": "/images/seating-images/section106.png",
         "section-105": "/images/seating-images/section105.png",
+
         "section-104-1": "/images/seating-images/section104-1.png",
         "section-104-2": "/images/seating-images/section104-2.png",
         "section-104-3": "/images/seating-images/section104-3.png",
         "section-104-4": "/images/seating-images/section104-4.png",
         "section-104-5": "/images/seating-images/section104-5.png",
+
+"section-103-1":"/images/seating-images/section103-1.png",
+"section-103-2": "/images/seating-images/section103-2.png",
+"section-103-3": "/images/seating-images/section103-3.png",
+"section-103-4": "/images/seating-images/section103-4.png",
+"section-103-5": "/images/seating-images/section103-5.png",
     };
   
     const sectionImage = sectionImageMap[sectionId];
