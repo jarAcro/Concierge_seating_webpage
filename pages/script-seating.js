@@ -1,5 +1,5 @@
 
-let popupTimeout;
+// Description: This script is used to display the seating chart for the user to select their seats.
 
 function showSectionImage(sectionId) {
     const sectionImageMap = {
@@ -65,7 +65,7 @@ function showSectionImage(sectionId) {
 "section-200-5": "/images/seating-images/section200-5.png",
 
     };
-  
+  // Get the image URL based on the section ID
     const sectionImage = sectionImageMap[sectionId];
     if (sectionImage) {
       const popupWindow = window.open("", "Section Image", "width=2000,height=1000, channelmode=yes fullscreen=yes scrollbars=no");
@@ -73,6 +73,7 @@ function showSectionImage(sectionId) {
     }
   }
 
+  /*
 let inactivityTimer;
 
 function resetInactivityTimer() {
@@ -82,11 +83,11 @@ function resetInactivityTimer() {
     // Set a new timer for 20 seconds of inactivity
     inactivityTimer = setTimeout(function() {
         if (window.confirm("Would you like more time??")) {
-            window.location.href = "../index.html";
+          resetInactivityTimer();
         } else {
-            resetInactivityTimer();
+            window.location.href = "../index.html";
         }
-    }, 10000); // 20 seconds in milliseconds
+    }, 20000); // 20 seconds in milliseconds
 }
 
 // Initialize the timer when the page loads
@@ -96,4 +97,4 @@ resetInactivityTimer();
 document.addEventListener("mousemove", resetInactivityTimer);
 document.addEventListener("keypress", resetInactivityTimer);
 
-console.log(window.location.href);
+*/

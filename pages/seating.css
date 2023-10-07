@@ -25,14 +25,19 @@ main{
    transform: translateY(-80px);
 }
 .back-button {
-  position: fixed;
-  top: 20px;
-  left: 50px;
+  position: absolute;
+  width:60px;
+  height: 30px;
+  top: 80px;
+  left: 150px;
   background-color: #7205f0;
   color: #fff;
-  padding: 20px 20px;
+  padding: 25px 40px;
+  margin-top: 45px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 25px;
 }
 
 .back-button a {
