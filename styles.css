@@ -1,5 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
 /* Center the button container vertically and horizontally */
 body {
     display: flex;
@@ -12,7 +16,12 @@ body {
     background-size: cover;
 }
 
-
+.welcome-text{
+    position: absolute;
+    top: 150px;
+    font-size: 60px;
+    color: white;
+}
 /* Style for the button container */
 .button-container {
     display: flex;
@@ -45,4 +54,11 @@ body {
 /* Hover effect for buttons */
 .custom-button:hover {
     background-color: rgba(255, 255, 255, 0.5); /* Darker transparent background on hover */
+}
+
+.bottom-text{
+    position: absolute;
+    top: 70%;
+    font-size: 40px;
+    color: white;
 }

@@ -74,11 +74,13 @@ function showSectionImage(sectionId) {
   }
 
   /*
+let popupTimer;
 let inactivityTimer;
 
 function resetInactivityTimer() {
     // Clear the previous timer, if any
     clearTimeout(inactivityTimer);
+    clearTimeout(popupTimer);
 
     // Set a new timer for 20 seconds of inactivity
     inactivityTimer = setTimeout(function() {
@@ -98,3 +100,4 @@ document.addEventListener("mousemove", resetInactivityTimer);
 document.addEventListener("keypress", resetInactivityTimer);
 
 */
+
