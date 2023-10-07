@@ -72,42 +72,28 @@ function showSectionImage(sectionId) {
       popupWindow.document.write(`<img src="${sectionImage}" alt="Section Image">`);
     }
   }
-/*
-  let timeoutId;
 
-  function resetTimer() {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(showPopup, 20000);
-  }
-  
-  function showPopup() {
-    const popup = document.createElement("div");
-    popup.style.position = "fixed";
-    popup.style.top = "50%";
-    popup.style.left = "50%";
-    popup.style.transform = "translate(-50%, -50%)";
-    popup.style.backgroundColor = "#fff";
-    popup.style.padding = "20px";
-    popup.style.borderRadius = "5px";
-    popup.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.2)";
-    popup.innerHTML = `
-      <p>Do you need more time?</p>
-      <button onclick="closePopup(true)">Yes</button>
-      <button onclick="closePopup(false)">No</button>
-    `;
-    document.body.appendChild(popup);
-  }
-  
-  function closePopup(extendTime) {
-    const popup = document.querySelector("div");
-    document.body.removeChild(popup);
-    if (extendTime) {
-      resetTimer();
-    }
-  }
-  
-  document.addEventListener("mousemove", resetTimer);
-  document.addEventListener("keydown", resetTimer);
-  resetTimer();
+let inactivityTimer;
 
-*/
+function resetInactivityTimer() {
+    // Clear the previous timer, if any
+    clearTimeout(inactivityTimer);
+
+    // Set a new timer for 20 seconds of inactivity
+    inactivityTimer = setTimeout(function() {
+        if (window.confirm("Would you like more time??")) {
+            window.location.href = "../index.html";
+        } else {
+            resetInactivityTimer();
+        }
+    }, 10000); // 20 seconds in milliseconds
+}
+
+// Initialize the timer when the page loads
+resetInactivityTimer();
+
+// Add an event listener to reset the timer on user activity (e.g., mousemove or keypress)
+document.addEventListener("mousemove", resetInactivityTimer);
+document.addEventListener("keypress", resetInactivityTimer);
+
+console.log(window.location.href);
